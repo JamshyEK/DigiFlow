@@ -1,0 +1,111 @@
+Thu May 21 18:21:45 2020 [13816][-none-][FATAL] User update error: Temp User is not retrieved at ID 1, boolean given
+Thu May 21 18:21:46 2020 [13816][-none-][FATAL] Email address save error
+Fri May 22 10:28:01 2020 [11544][-none-][FATAL] Mysqli_query failed.
+Fri May 22 10:28:01 2020 [11544][-none-][FATAL]  Query Failed: SELECT id, name, symbol, conversion_rate FROM currencies WHERE status = 'Active' and deleted = 0: MySQL error 1146: Table 'suitecrm.currencies' doesn't exist
+Fri May 22 10:28:01 2020 [11544][-none-][FATAL] Mysqli_query failed.
+Fri May 22 10:28:01 2020 [11544][-none-][FATAL]  Query Failed: SELECT id, name, symbol, conversion_rate FROM currencies WHERE status = 'Active' and deleted = 0: MySQL error 1146: Table 'suitecrm.currencies' doesn't exist
+Fri May 22 10:28:01 2020 [11544][-none-][FATAL] Mysqli_query failed.
+Fri May 22 10:28:01 2020 [11544][-none-][FATAL] Unable to retrieve system settings Query Failed: SELECT category, name, value FROM config: MySQL error 1146: Table 'suitecrm.config' doesn't exist
+Fri May 22 10:28:01 2020 [11544][-none-][FATAL] Mysqli_query failed.
+Fri May 22 10:28:01 2020 [11544][-none-][FATAL] Unable to retrieve system settings Query Failed: SELECT category, name, value FROM config: MySQL error 1146: Table 'suitecrm.config' doesn't exist
+Fri May 22 10:28:08 2020 [11544][-none-][FATAL] Mysqli_query failed.
+Fri May 22 10:28:08 2020 [11544][-none-][FATAL]  Query Failed: SELECT id, name, symbol, conversion_rate FROM currencies WHERE status = 'Active' and deleted = 0: MySQL error 1146: Table 'suitecrm.currencies' doesn't exist
+Fri May 22 10:28:08 2020 [11544][-none-][FATAL] Mysqli_query failed.
+Fri May 22 10:28:08 2020 [11544][-none-][FATAL] Unable to retrieve system settings Query Failed: SELECT category, name, value FROM config: MySQL error 1146: Table 'suitecrm.config' doesn't exist
+Fri May 22 10:28:55 2020 [11544][-none-][FATAL] Mysqli_query failed.
+Fri May 22 10:28:55 2020 [11544][-none-][FATAL]  Query Failed: SELECT id, name, symbol, conversion_rate FROM currencies WHERE status = 'Active' and deleted = 0: MySQL error 1146: Table 'suitecrm.currencies' doesn't exist
+Fri May 22 10:28:55 2020 [11544][-none-][FATAL] Mysqli_query failed.
+Fri May 22 10:28:55 2020 [11544][-none-][FATAL] Unable to retrieve system settings Query Failed: SELECT category, name, value FROM config: MySQL error 1146: Table 'suitecrm.config' doesn't exist
+Fri May 22 10:29:08 2020 [11544][-none-][FATAL] Mysqli_query failed.
+Fri May 22 10:29:08 2020 [11544][-none-][FATAL]  Query Failed: SELECT id FROM outbound_email WHERE type = 'system': MySQL error 1146: Table 'suitecrm.outbound_email' doesn't exist
+Fri May 22 10:29:08 2020 [11544][-none-][FATAL] Mysqli_query failed.
+Fri May 22 10:29:08 2020 [11544][-none-][FATAL]  Query Failed: INSERT INTO outbound_email (id,name,type,user_id,mail_sendtype,mail_smtptype,mail_smtpserver,mail_smtpport,mail_smtpuser,mail_smtppass,mail_smtpauth_req,mail_smtpssl) VALUES ('591f0273-6ac0-92d1-72d9-5ec78da016b7','system','system','1','SMTP','other','',25,'','',1,0): MySQL error 1146: Table 'suitecrm.outbound_email' doesn't exist
+Fri May 22 10:29:56 2020 [11544][-none-][FATAL] Mysqli_query failed.
+Fri May 22 10:29:56 2020 [11544][-none-][FATAL]  Query Failed: SELECT id FROM outbound_email WHERE type = 'system': MySQL error 1146: Table 'suitecrm.outbound_email' doesn't exist
+Fri May 22 10:29:56 2020 [11544][-none-][FATAL] Mysqli_query failed.
+Fri May 22 10:29:56 2020 [11544][-none-][FATAL]  Query Failed: INSERT INTO outbound_email (id,name,type,user_id,mail_sendtype,mail_smtptype,mail_smtpserver,mail_smtpport,mail_smtpuser,mail_smtppass,mail_smtpauth_req,mail_smtpssl) VALUES ('b79d4d57-796f-e008-7d18-5ec78de618ac','system','system','1','SMTP','other','',25,'','',1,0): MySQL error 1146: Table 'suitecrm.outbound_email' doesn't exist
+Fri May 22 10:30:08 2020 [11544][-none-][FATAL] Mysqli_query failed.
+Fri May 22 10:30:08 2020 [11544][-none-][FATAL]  Query Failed: SELECT id FROM outbound_email WHERE type = 'system': MySQL error 1146: Table 'suitecrm.outbound_email' doesn't exist
+Fri May 22 10:30:08 2020 [11544][-none-][FATAL] Mysqli_query failed.
+Fri May 22 10:30:08 2020 [11544][-none-][FATAL]  Query Failed: INSERT INTO outbound_email (id,name,type,user_id,mail_sendtype,mail_smtptype,mail_smtpserver,mail_smtpport,mail_smtpuser,mail_smtppass,mail_smtpauth_req,mail_smtpssl) VALUES ('3fb09841-3a28-f692-e465-5ec78d28efc3','system','system','1','SMTP','other','',25,'','',1,0): MySQL error 1146: Table 'suitecrm.outbound_email' doesn't exist
+Fri May 22 10:30:10 2020 [11544][-none-][FATAL] Mysqli_query failed.
+Fri May 22 10:30:10 2020 [11544][-none-][FATAL]  Query Failed: SELECT id FROM outbound_email WHERE type = 'system': MySQL error 1146: Table 'suitecrm.outbound_email' doesn't exist
+Fri May 22 10:30:10 2020 [11544][-none-][FATAL] Mysqli_query failed.
+Fri May 22 10:30:10 2020 [11544][-none-][FATAL]  Query Failed: INSERT INTO outbound_email (id,name,type,user_id,mail_sendtype,mail_smtptype,mail_smtpserver,mail_smtpport,mail_smtpuser,mail_smtppass,mail_smtpauth_req,mail_smtpssl) VALUES ('4c4c5b53-3f23-5a83-1301-5ec78ddcba01','system','system','1','SMTP','other','',25,'','',1,0): MySQL error 1146: Table 'suitecrm.outbound_email' doesn't exist
+Fri May 22 10:42:20 2020 [11544][1][FATAL] log call at: modules/EmailMan/tpls/config.tpl:465 - styleChecked is not set
+Sat May 23 09:00:40 2020 [11028][1][FATAL] Undefined index: module
+Sat May 23 09:00:40 2020 [11028][1][FATAL] Invalid or missing SubPanelDefinition property: subpanel_name
+Sat May 23 09:00:40 2020 [11028][1][FATAL] Failed to load original or custom subpanel data for eapm in 
+Fri May 29 08:37:30 2020 [120][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
+
+Fri May 29 10:03:04 2020 [120][-none-][FATAL] SECURITY: User authentication for demouser failed
+Fri May 29 10:03:04 2020 [120][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[demouser]
+Sat May 30 08:25:04 2020 [13484][1][FATAL] Exception handling in C:\xampp\htdocs\SuiteCRM-7.11.13\include\MVC\Controller\SugarController.php:400
+Sat May 30 08:25:05 2020 [13484][1][FATAL] Exception in Controller: There is no action by that name: About
+Sat May 30 08:25:05 2020 [13484][1][FATAL] backtrace:
+#0 C:\xampp\htdocs\SuiteCRM-7.11.13\include\MVC\Controller\SugarController.php(555): sugar_die('There is no act...')
+#1 C:\xampp\htdocs\SuiteCRM-7.11.13\include\MVC\Controller\SugarController.php(1094): SugarController->no_action()
+#2 C:\xampp\htdocs\SuiteCRM-7.11.13\include\MVC\Controller\SugarController.php(468): SugarController->handleActionMaps()
+#3 C:\xampp\htdocs\SuiteCRM-7.11.13\include\MVC\Controller\SugarController.php(373): SugarController->process()
+#4 C:\xampp\htdocs\SuiteCRM-7.11.13\include\MVC\SugarApplication.php(113): SugarController->execute()
+#5 C:\xampp\htdocs\SuiteCRM-7.11.13\index.php(52): SugarApplication->execute()
+#6 {main}
+Sat May 30 08:25:23 2020 [13484][1][FATAL] Exception handling in C:\xampp\htdocs\SuiteCRM-7.11.13\include\MVC\Controller\SugarController.php:400
+Sat May 30 08:25:23 2020 [13484][1][FATAL] Exception in Controller: There is no action by that name: About
+Sat May 30 08:25:23 2020 [13484][1][FATAL] backtrace:
+#0 C:\xampp\htdocs\SuiteCRM-7.11.13\include\MVC\Controller\SugarController.php(555): sugar_die('There is no act...')
+#1 C:\xampp\htdocs\SuiteCRM-7.11.13\include\MVC\Controller\SugarController.php(1094): SugarController->no_action()
+#2 C:\xampp\htdocs\SuiteCRM-7.11.13\include\MVC\Controller\SugarController.php(468): SugarController->handleActionMaps()
+#3 C:\xampp\htdocs\SuiteCRM-7.11.13\include\MVC\Controller\SugarController.php(373): SugarController->process()
+#4 C:\xampp\htdocs\SuiteCRM-7.11.13\include\MVC\SugarApplication.php(113): SugarController->execute()
+#5 C:\xampp\htdocs\SuiteCRM-7.11.13\index.php(52): SugarApplication->execute()
+#6 {main}
+Sun Jun 14 07:16:34 2020 [12396][-none-][FATAL] SECURITY: User authentication for ekmjamshy@gmail.com failed
+Sun Jun 14 07:16:34 2020 [12396][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[ekmjamshy@gmail.com]
+Sun Jun 14 07:51:10 2020 [12396][-none-][FATAL] SECURITY: User authentication for adminl failed
+Sun Jun 14 07:51:10 2020 [12396][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[adminl]
+Sun Jun 14 07:51:43 2020 [12396][-none-][FATAL] SECURITY: User authentication for adminl failed
+Sun Jun 14 07:51:43 2020 [12396][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[adminl]
+Sun Jun 14 07:52:45 2020 [12396][-none-][FATAL] SECURITY: User authentication for admine failed
+Sun Jun 14 07:52:45 2020 [12396][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[admine]
+Sun Jun 14 12:22:58 2020 [12396][-none-][FATAL] SECURITY: User authentication for admin failed
+Sun Jun 14 12:23:04 2020 [12396][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[admin]
+Sun Jun 14 16:07:11 2020 [12396][-none-][FATAL] SECURITY: User authentication for adminnb failed
+Sun Jun 14 16:07:11 2020 [12396][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[adminnb]
+Sun Jun 14 16:42:52 2020 [12396][-none-][FATAL] SECURITY: User authentication for Jamshy Ek failed
+Sun Jun 14 16:42:52 2020 [12396][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[Jamshy Ek]
+Sun Jun 14 20:10:20 2020 [12396][-none-][FATAL] SECURITY: User authentication for sasa failed
+Sun Jun 14 20:10:20 2020 [12396][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[sasa]
+Sun Jun 14 20:11:28 2020 [12396][-none-][FATAL] SECURITY: User authentication for sa failed
+Sun Jun 14 20:11:28 2020 [12396][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[sa]
+Sun Jun 14 20:14:45 2020 [12396][-none-][FATAL] SECURITY: User authentication for zs failed
+Sun Jun 14 20:14:45 2020 [12396][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[zs]
+Fri Jun 19 04:56:30 2020 [9420][-none-][FATAL] SECURITY: User authentication for mobiaccs failed
+Fri Jun 19 04:56:30 2020 [9420][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[mobiaccs]
+Fri Jun 19 04:56:30 2020 [9420][-none-][FATAL] SECURITY: User authentication for mobiaccs failed
+Fri Jun 19 04:56:30 2020 [9420][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[mobiaccs]
+Fri Jun 19 05:03:39 2020 [9420][1][FATAL] availableThemes() is returning an empty array! Check disabled_themes in config.php and config_override.php
+Fri Jun 19 06:22:54 2020 [9420][-none-][FATAL] SECURITY: User authentication for Jamshy Ek failed
+Fri Jun 19 06:22:54 2020 [9420][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[Jamshy Ek]
+Sat Jun 20 10:27:03 2020 [9160][-none-][FATAL] SECURITY: User authentication for Jamshy Ek failed
+Sat Jun 20 10:27:03 2020 [9160][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[Jamshy Ek]
+Sat Jun 20 19:36:51 2020 [9160][1][FATAL] Undefined index: module
+Sat Jun 20 19:36:51 2020 [9160][1][FATAL] Invalid or missing SubPanelDefinition property: subpanel_name
+Sat Jun 20 19:36:51 2020 [9160][1][FATAL] Failed to load original or custom subpanel data for eapm in 
+Sun Jun 21 11:08:03 2020 [10516][-none-][FATAL] SECURITY: User authentication for admi failed
+Sun Jun 21 11:08:03 2020 [10516][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[admi]
+Sun Jun 21 11:24:58 2020 [10516][-none-][FATAL] SECURITY: User authentication for admin failed
+Sun Jun 21 11:24:58 2020 [10516][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[admin]
+Sun Jun 21 12:35:50 2020 [10516][1][FATAL] availableThemes() is returning an empty array! Check disabled_themes in config.php and config_override.php
+Sun Jun 21 12:40:17 2020 [10516][-none-][FATAL] SECURITY: User authentication for admi failed
+Sun Jun 21 12:40:17 2020 [10516][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[admi]
+Wed Jun 24 16:21:08 2020 [9600][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
+
+Wed Jul  1 11:09:53 2020 [9964][1][FATAL] availableThemes() is returning an empty array! Check disabled_themes in config.php and config_override.php
+Mon Jul 20 14:00:10 2020 [10476][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
+
+Tue Jul 21 12:29:03 2020 [10664][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Tue Jul 21 19:18:40 2020 [3292][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
+
+Tue Jul 21 19:18:47 2020 [3292][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
+
