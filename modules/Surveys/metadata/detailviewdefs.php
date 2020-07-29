@@ -9,7 +9,10 @@ $viewdefs [$module_name] = array(
                     1 => 'DUPLICATE',
                     2 => 'DELETE',
                     3 => 'FIND_DUPLICATES',
-                    4 => array(
+                    4 => array ( 'customCode' => '<input type="button" class="button" onClick="showPopup(\'pdf\');"
+value="{$MOD.LBL_PRINT_AS_PDF}">',
+),
+                    5 => array(
                         'customCode' => '<input type="submit" class="button" onClick="var _form = document.getElementById(\'formDetailView\');_form.action.value=\'reports\';SUGAR.ajaxUI.submitForm(_form);" value="{$MOD.LBL_VIEW_SURVEY_REPORTS}">',
                     ),
                 ),

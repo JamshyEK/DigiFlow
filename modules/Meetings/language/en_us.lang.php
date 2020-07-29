@@ -167,4 +167,6 @@ $mod_strings = array(
     // for google sync
     'LBL_GSYNC_ID' => 'Google Event ID',
     'LBL_GSYNC_LASTSYNC' => 'Last Google Sync Timestamp',
+    'LBL_PRINT_AS_PDF' => 'Print PDF',
+    'LBL_NO_TEMPLATE' =>'ERROR\nNo templates found.Please go to the PDF Templates module and create one',
 );

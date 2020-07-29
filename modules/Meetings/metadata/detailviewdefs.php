@@ -72,7 +72,10 @@ array(
                   'template' => '{if $fields.status.value != "Held" && $bean->aclAccess("edit")}[CONTENT]{/if}',
               ),
           ),
-          4 =>
+          4 => array ( 'customCode' => '<input type="button" class="button" onClick="showPopup(\'pdf\');"
+value="{$MOD.LBL_PRINT_AS_PDF}">',
+),
+          5 =>
           array(
             'customCode' => '{if $fields.status.value != "Held" && $bean->aclAccess("edit")} <input type="hidden" name="isSave" value="false">  <input title="{$APP.LBL_CLOSE_BUTTON_TITLE}"  accesskey="{$APP.LBL_CLOSE_BUTTON_KEY}"  class="button"  onclick="this.form.status.value=\'Held\'; this.form.action.value=\'Save\';this.form.return_module.value=\'Meetings\';this.form.isSave.value=true;this.form.return_action.value=\'DetailView\'; this.form.return_id.value=\'{$fields.id.value}\'"  id="close_button" name="button1"  value="{$APP.LBL_CLOSE_BUTTON_TITLE}"  type="submit">{/if}',
               //Bug#51778: The custom code will be replaced with sugar_html. customCode will be deplicated.
@@ -90,6 +93,7 @@ array(
                   'template' => '{if $fields.status.value != "Held" && $bean->aclAccess("edit")}[CONTENT]{/if}',
               ),
           ),
+
         ),
         'hidden' => array(
             '<input type="hidden" name="isSaveAndNew">',

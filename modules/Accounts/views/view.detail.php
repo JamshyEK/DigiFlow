@@ -116,4 +116,16 @@ class AccountsViewDetail extends ViewDetail
         $html .= '", true, false);\' value="' . $mod_strings['LBL_PUSH_CONTACTS_BUTTON_TITLE']. '">';
         return $html;
     }
+
+
+
+
+
+    
 }
+
+
+
+
+
+

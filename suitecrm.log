@@ -109,3 +109,13 @@ Tue Jul 21 19:18:40 2020 [3292][-none-][FATAL] Could not connect to DB server lo
 
 Tue Jul 21 19:18:47 2020 [3292][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
 
+Wed Jul 22 09:11:12 2020 [12788][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
+
+Wed Jul 22 09:11:24 2020 [12788][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
+
+Thu Jul 23 07:37:52 2020 [4400][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
+
+Mon Jul 27 02:48:01 2020 [12424][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
+
+Mon Jul 27 02:48:08 2020 [12424][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
+

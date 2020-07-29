@@ -91,4 +91,7 @@ $mod_strings = array(
     'LBL_SURVEYS_SURVEYQUESTIONS_FROM_SURVEYQUESTIONS_TITLE' => 'Survey Questions',
     'LBL_SURVEYS_SURVEYRESPONSES_FROM_SURVEYRESPONSES_TITLE' => 'Survey Responses',
     'LBL_SHOW_RESPONSES' => 'Show responses',
+    'LBL_PRINT_AS_PDF' => 'Print PDF',
+    'LBL_NO_TEMPLATE' =>'ERROR\nNo templates found.Please go to the PDF Templates module and create one',
+
 );

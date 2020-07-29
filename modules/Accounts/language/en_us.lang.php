@@ -161,4 +161,5 @@ $mod_strings = array(
     'LBL_AOS_CONTRACTS' => 'Contracts',
     'LBL_AOS_INVOICES' => 'Invoices',
     'LBL_AOS_QUOTES' => 'Quotes',
+    'LBL_PRINT_AS_PDF' => 'Print PDF',
 );

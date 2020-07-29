@@ -52,6 +52,9 @@ array(
           1 => 'DUPLICATE',
           2 => 'DELETE',
           3 => 'FIND_DUPLICATES',
+          4 => array ( 'customCode' => '<input type="button" class="button" onClick="showPopup(\'pdf\');"
+value="{$MOD.LBL_PRINT_AS_PDF}">',
+),
         ),
       ),
       'maxColumns' => '2',
