@@ -4,7 +4,7 @@
  * SugarCRM Community Edition is a customer relationship management program developed by
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
- * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
+ * DigitalFlow is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
  * Copyright (C) 2011 - 2019 SalesAgility Ltd.
  *
  * This program is free software; you can redistribute it and/or modify it under
@@ -33,9 +33,9 @@
  *
  * In accordance with Section 7(b) of the GNU Affero General Public License version 3,
  * these Appropriate Legal Notices must retain the display of the "Powered by
- * SugarCRM" logo and "Supercharged by SuiteCRM" logo. If the display of the logos is not
+ * SugarCRM" logo and "Supercharged by DigitalFlow" logo. If the display of the logos is not
  * reasonably feasible for technical reasons, the Appropriate Legal Notices must
- * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
+ * display the words "Powered by SugarCRM" and "Supercharged by DigitalFlow".
  */
 
 
@@ -102,8 +102,8 @@ $app_list_strings = array(
         'TrackerQueries' => 'Tracker Queries',
         'FAQ' => 'FAQ',
         'Newsletters' => 'Newsletters',
-        'SugarFeed' => 'SuiteCRM Feed',
-        'SugarFavorites' => 'SuiteCRM Favorites',
+        'SugarFeed' => 'DigitalFlow Feed',
+        'SugarFavorites' => 'DigitalFlow Favorites',
 
         'OAuthKeys' => 'OAuth Consumer Keys',
         'OAuthTokens' => 'OAuth Tokens',
@@ -139,7 +139,7 @@ $app_list_strings = array(
         'Documents' => 'Document',
         'Sync' => 'Sync',
         'Users' => 'User',
-        'SugarFavorites' => 'SuiteCRM Favorites',
+        'SugarFavorites' => 'DigitalFlow Favorites',
 
     ),
 
@@ -336,7 +336,7 @@ $app_list_strings = array(
     ),
     'meeting_type_dom' => array(
         'Other' => 'Other',
-        'Sugar' => 'SuiteCRM',
+        'Sugar' => 'DigitalFlow',
     ),
     'call_status_default' => 'Planned',
     'call_status_dom' => array(
@@ -753,7 +753,7 @@ $app_list_strings = array(
     ),
 
     'dom_email_link_type' => array(
-        'sugar' => 'SuiteCRM Email Client',
+        'sugar' => 'DigitalFlow Email Client',
         'mailto' => 'External Email Client',
     ),
 
@@ -1114,12 +1114,12 @@ $app_strings = array(
     'LBL_EMAIL_ADDRESS_PRIMARY' => 'Email Address',
     'LBL_EMAIL_ADDRESS_OPT_IN' => 'You have confirmed that your email address has been opted in: ',
     'LBL_EMAIL_ADDRESS_OPT_IN_ERR' => 'Unable to confirm email address',
-    'LBL_EMAIL_ARCHIVE_TO_SUITE' => 'Import to SuiteCRM',
+    'LBL_EMAIL_ARCHIVE_TO_SUITE' => 'Import to DigitalFlow',
     'LBL_EMAIL_ASSIGNMENT' => 'Assignment',
     'LBL_EMAIL_ATTACH_FILE_TO_EMAIL' => 'Attach',
     'LBL_EMAIL_ATTACHMENT' => 'Attach',
     'LBL_EMAIL_ATTACHMENTS' => 'From Local System',
-    'LBL_EMAIL_ATTACHMENTS2' => 'From SuiteCRM Documents',
+    'LBL_EMAIL_ATTACHMENTS2' => 'From DigitalFlow Documents',
     'LBL_EMAIL_ATTACHMENTS3' => 'Template Attachments',
     'LBL_EMAIL_ATTACHMENTS_FILE' => 'File',
     'LBL_EMAIL_ATTACHMENTS_DOCUMENT' => 'Document',
@@ -1170,7 +1170,7 @@ $app_strings = array(
     'LBL_EMAIL_ERROR_CHECK_IE_SETTINGS' => 'Please check your settings.',
     'LBL_EMAIL_ERROR_DESC' => 'Errors were detected: ',
     'LBL_EMAIL_DELETE_ERROR_DESC' => 'You do not have access to this area. Contact your site administrator to obtain access.',
-    'LBL_EMAIL_ERROR_DUPE_FOLDER_NAME' => 'SuiteCRM Folder names must be unique.',
+    'LBL_EMAIL_ERROR_DUPE_FOLDER_NAME' => 'DigitalFlow Folder names must be unique.',
     'LBL_EMAIL_ERROR_EMPTY' => 'Please enter some search criteria.',
     'LBL_EMAIL_ERROR_GENERAL_TITLE' => 'An error has occurred',
     'LBL_EMAIL_ERROR_MESSAGE_DELETED' => 'Message Removed from Server',
@@ -1232,7 +1232,7 @@ $app_strings = array(
     'LBL_EMAIL_IE_DELETE_SUCCESSFUL' => 'Deletion successful.',
     'LBL_EMAIL_IE_SAVE' => 'Saving Mail Account Information',
     'LBL_EMAIL_IMPORTING_EMAIL' => 'Importing Email',
-    'LBL_EMAIL_IMPORT_EMAIL' => 'Import into SuiteCRM',
+    'LBL_EMAIL_IMPORT_EMAIL' => 'Import into DigitalFlow',
     'LBL_EMAIL_IMPORT_SETTINGS' => 'Import Settings',
     'LBL_EMAIL_INVALID' => 'Invalid',
     'LBL_EMAIL_LOADING' => 'Loading...',
@@ -1254,12 +1254,12 @@ $app_strings = array(
     'LBL_EMAIL_MENU_RENAMING_FOLDER' => 'Renaming Folder',
     'LBL_EMAIL_MENU_MAKE_SELECTION' => 'Please make a selection before trying this operation.',
 
-    'LBL_EMAIL_MENU_HELP_ADD_FOLDER' => 'Create a Folder (remote or in SuiteCRM)',
-    'LBL_EMAIL_MENU_HELP_DELETE_FOLDER' => 'Delete a Folder (remote or in SuiteCRM)',
+    'LBL_EMAIL_MENU_HELP_ADD_FOLDER' => 'Create a Folder (remote or in DigitalFlow)',
+    'LBL_EMAIL_MENU_HELP_DELETE_FOLDER' => 'Delete a Folder (remote or in DigitalFlow)',
     'LBL_EMAIL_MENU_HELP_EMPTY_TRASH' => 'Empties all Trash folders for your mail accounts',
     'LBL_EMAIL_MENU_HELP_MARK_READ' => 'Mark these email(s) read',
     'LBL_EMAIL_MENU_HELP_MARK_UNFLAGGED' => 'Mark these email(s) unflagged',
-    'LBL_EMAIL_MENU_HELP_RENAME_FOLDER' => 'Rename a Folder (remote or in SuiteCRM)',
+    'LBL_EMAIL_MENU_HELP_RENAME_FOLDER' => 'Rename a Folder (remote or in DigitalFlow)',
 
     'LBL_EMAIL_MESSAGES' => 'messages',
 
@@ -1376,10 +1376,10 @@ $app_strings = array(
     'LBL_SMTPTYPE_EXCHANGE' => 'Microsoft Exchange',
     'LBL_SMTPTYPE_OTHER' => 'Other',
     'LBL_EMAIL_SPACER_MAIL_SERVER' => '[ Remote Folders ]',
-    'LBL_EMAIL_SPACER_LOCAL_FOLDER' => '[ SuiteCRM Folders ]',
+    'LBL_EMAIL_SPACER_LOCAL_FOLDER' => '[ DigitalFlow Folders ]',
     'LBL_EMAIL_SUBJECT' => 'Subject',
     'LBL_EMAIL_SUCCESS' => 'Success',
-    'LBL_EMAIL_SUITE_FOLDER' => 'SuiteCRM Folder',
+    'LBL_EMAIL_SUITE_FOLDER' => 'DigitalFlow Folder',
     'LBL_EMAIL_TEMPLATE_EDIT_PLAIN_TEXT' => 'Email template body is empty',
     'LBL_EMAIL_TEMPLATES' => 'Templates',
     'LBL_EMAIL_TO' => 'To',
@@ -1428,9 +1428,9 @@ $app_strings = array(
     'ERR_EXISTING_PORTAL_USERNAME' => 'Error: The Portal Name is already assigned to another contact.',
     'ERR_COMPATIBLE_PRECISION_VALUE' => 'Field value is not compatible with precision value',
     'ERR_EXTERNAL_API_SAVE_FAIL' => 'An error occurred when trying to save to the external account.',
-    'ERR_NO_DB' => 'Could not connect to the database. Please refer to suitecrm.log for details (0).',
-    'ERR_DB_FAIL' => 'Database failure. Please refer to suitecrm.log for details.',
-    'ERR_DB_VERSION' => 'SuiteCRM {0} Files May Only Be Used With A SuiteCRM {1} Database.',
+    'ERR_NO_DB' => 'Could not connect to the database. Please refer to DigitalFlow.log for details (0).',
+    'ERR_DB_FAIL' => 'Database failure. Please refer to DigitalFlow.log for details.',
+    'ERR_DB_VERSION' => 'DigitalFlow {0} Files May Only Be Used With A DigitalFlow {1} Database.',
 
     'LBL_ACCOUNT' => 'Account',
     'LBL_ACCOUNTS' => 'Accounts',
@@ -1504,9 +1504,9 @@ $app_strings = array(
     'LBL_FAVORITES' => 'Favorites',
     'LBL_VCARD' => 'vCard',
     'LBL_EMPTY_VCARD' => 'Please select a vCard file',
-    'LBL_EMPTY_REQUIRED_VCARD' => 'vCard does not have all the required fields for this module. Please refer to suitecrm.log for details.',
+    'LBL_EMPTY_REQUIRED_VCARD' => 'vCard does not have all the required fields for this module. Please refer to DigitalFlow.log for details.',
     'LBL_VCARD_ERROR_FILESIZE' => 'The uploaded file exceeds the 30000 bytes size limit which was specified in the HTML form.',
-    'LBL_VCARD_ERROR_DEFAULT' => 'There was an error uploading the vCard file. Please refer to suitecrm.log for details.',
+    'LBL_VCARD_ERROR_DEFAULT' => 'There was an error uploading the vCard file. Please refer to DigitalFlow.log for details.',
     'LBL_IMPORT_VCARD' => 'Import vCard:',
     'LBL_IMPORT_VCARD_BUTTON_LABEL' => 'Import vCard',
     'LBL_IMPORT_VCARD_BUTTON_TITLE' => 'Import vCard',
@@ -1883,18 +1883,18 @@ $app_strings = array(
     'LBL_DASHLET_CONFIGURE_DISPLAY_ROWS' => 'Display Rows',
 
     // MySugar status strings
-    'LBL_MAX_DASHLETS_REACHED' => 'You have reached the maximum number of SuiteCRM Dashlets your adminstrator has set. Please remove a SuiteCRM Dashlet to add more.',
-    'LBL_ADDING_DASHLET' => 'Adding SuiteCRM Dashlet...',
-    'LBL_ADDED_DASHLET' => 'SuiteCRM Dashlet Added',
-    'LBL_REMOVE_DASHLET_CONFIRM' => 'Are you sure you want to remove this SuiteCRM Dashlet?',
-    'LBL_REMOVING_DASHLET' => 'Removing SuiteCRM Dashlet...',
-    'LBL_REMOVED_DASHLET' => 'SuiteCRM Dashlet Removed',
+    'LBL_MAX_DASHLETS_REACHED' => 'You have reached the maximum number of DigitalFlow Dashlets your adminstrator has set. Please remove a DigitalFlow Dashlet to add more.',
+    'LBL_ADDING_DASHLET' => 'Adding DigitalFlow Dashlet...',
+    'LBL_ADDED_DASHLET' => 'DigitalFlow Dashlet Added',
+    'LBL_REMOVE_DASHLET_CONFIRM' => 'Are you sure you want to remove this DigitalFlow Dashlet?',
+    'LBL_REMOVING_DASHLET' => 'Removing DigitalFlow Dashlet...',
+    'LBL_REMOVED_DASHLET' => 'DigitalFlow Dashlet Removed',
 
     // MySugar Menu Options
 
     'LBL_LOADING_PAGE' => 'Loading page, please wait...',
 
-    'LBL_RELOAD_PAGE' => 'Please <a href="javascript: window.location.reload()">reload the window</a> to use this SuiteCRM Dashlet.',
+    'LBL_RELOAD_PAGE' => 'Please <a href="javascript: window.location.reload()">reload the window</a> to use this DigitalFlow Dashlet.',
     'LBL_ADD_DASHLETS' => 'Add Dashlets',
     'LBL_CLOSE_DASHLETS' => 'Close',
     'LBL_OPTIONS' => 'Options',
@@ -2090,7 +2090,7 @@ $app_strings = array(
     'LBL_FIRST_INPUT_SEARCH_KEY' => '9',
 
     'ERR_CONNECTOR_NOT_ARRAY' => 'connector array in {0} been defined incorrectly or is empty and could not be used.',
-    'ERR_SUHOSIN' => 'Upload stream is blocked by Suhosin, please add &quot;upload&quot; to suhosin.executor.include.whitelist (See suitecrm.log for more information)',
+    'ERR_SUHOSIN' => 'Upload stream is blocked by Suhosin, please add &quot;upload&quot; to suhosin.executor.include.whitelist (See DigitalFlow.log for more information)',
     'ERR_BAD_RESPONSE_FROM_SERVER' => 'Bad response from the server',
     'LBL_ACCOUNT_PRODUCT_QUOTE_LINK' => 'Quote',
     'LBL_ACCOUNT_PRODUCT_SALE_PRICE' => 'Sale Price',
@@ -2845,7 +2845,7 @@ $app_list_strings['timezone_dom'] = array(
 );
 
 $app_list_strings['eapm_list'] = array(
-    'Sugar' => 'SuiteCRM',
+    'Sugar' => 'DigitalFlow',
     'WebEx' => 'WebEx',
     'GoToMeeting' => 'GoToMeeting',
     'IBMSmartCloud' => 'IBM SmartCloud',
@@ -3504,7 +3504,7 @@ $app_strings['LBL_RESCHEDULE_HISTORY'] = 'Call attempt history';
 $app_strings['LBL_RESCHEDULE_COUNT'] = 'Call Attempts';
 
 //SecurityGroups
-$app_list_strings['moduleList']['SecurityGroups'] = 'Security Suite Management';
+$app_list_strings['moduleList']['SecurityGroups'] = 'Security DigitalFlow Management';
 $app_strings['LBL_SECURITYGROUP'] = 'Security Group';
 
 $app_list_strings['moduleList']['OutboundEmailAccounts'] = 'Outbound Email Accounts';
@@ -3688,7 +3688,7 @@ $app_strings['MSG_BROWSER_NOTIFICATIONS_ENABLED'] = 'Desktop notifications are n
 $app_strings['MSG_BROWSER_NOTIFICATIONS_DISABLED'] = 'Desktop notifications are disabled for this web browser. Use your browser preferences to enable them again.';
 $app_strings['MSG_BROWSER_NOTIFICATIONS_UNSUPPORTED'] = 'This browser does not support desktop notifications.';
 
-$app_strings['LBL_GOOGLE_SYNC_ERR'] = 'SuiteCRM Google Sync - ERROR';
+$app_strings['LBL_GOOGLE_SYNC_ERR'] = 'DigitalFlow Google Sync - ERROR';
 $app_strings['LBL_THERE_WAS_AN_ERR'] = 'There was an error: ';
 $app_strings['LBL_CLICK_HERE'] = 'Click here';
 $app_strings['LBL_TO_CONTINUE'] = ' to continue.';

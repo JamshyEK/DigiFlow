@@ -63,7 +63,7 @@
     <link href="t{$cssPath}/footable.core.css" rel="stylesheet" type="text/css">
 
     <link rel="stylesheet" type="text/css" media="all" href="modules/Users/login.css">
-    <title>SuiteCRM</title>
+    <title>DigitalFlow</title>
 
     {$css}
 </head>

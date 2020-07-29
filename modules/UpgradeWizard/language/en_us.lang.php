@@ -4,7 +4,7 @@
  * SugarCRM Community Edition is a customer relationship management program developed by
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
- * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
+ * DigitalFlow is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
  * Copyright (C) 2011 - 2019 SalesAgility Ltd.
  *
  * This program is free software; you can redistribute it and/or modify it under
@@ -33,9 +33,9 @@
  *
  * In accordance with Section 7(b) of the GNU Affero General Public License version 3,
  * these Appropriate Legal Notices must retain the display of the "Powered by
- * SugarCRM" logo and "Supercharged by SuiteCRM" logo. If the display of the logos is not
+ * SugarCRM" logo and "Supercharged by DigitalFlow" logo. If the display of the logos is not
  * reasonably feasible for technical reasons, the Appropriate Legal Notices must
- * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
+ * display the words "Powered by SugarCRM" and "Supercharged by DigitalFlow".
  */
 
 if (!defined('sugarEntry') || !sugarEntry) {
@@ -53,8 +53,8 @@ $mod_strings = array(
     'ERR_UW_FILE_NOT_READABLE' => 'File could not be read.',
     'ERR_UW_FILE_NOT_WRITABLE' => 'File cannot be moved or written to',
     'ERR_UW_FLAVOR_2' => 'Upgrade Flavor: ',
-    'ERR_UW_FLAVOR' => 'SuiteCRM System Flavor: ',
-    'ERR_UW_LOG_FILE_UNWRITABLE' => './upgradeWizard.log could not be created/written to. Please fix permissions on your SuiteCRM directory.',
+    'ERR_UW_FLAVOR' => 'DigitalFlow System Flavor: ',
+    'ERR_UW_LOG_FILE_UNWRITABLE' => './upgradeWizard.log could not be created/written to. Please fix permissions on your DigitalFlow directory.',
     'ERR_UW_MBSTRING_FUNC_OVERLOAD' => 'mbstring.func_overload set to a value higher than 1. Please change this in your php.ini and restart the web server.',
     'ERR_UW_NO_FILE_UPLOADED' => 'Please specify a file and try again!',
     'ERR_UW_NO_FILES' => 'An error occurred, no files were found to check.',
@@ -65,9 +65,9 @@ $mod_strings = array(
     'ERR_UW_ONLY_PATCHES' => 'You can only upload patches on this page.',
     'ERR_UW_PREFLIGHT_ERRORS' => 'Errors Found During Preflight Check',
     'ERR_UW_UPLOAD_ERR' => 'There was an error uploading the file, please try again!<br>' . PHP_EOL,
-    'ERR_UW_VERSION' => 'SuiteCRM System Version: ',
+    'ERR_UW_VERSION' => 'DigitalFlow System Version: ',
     'ERR_UW_PHP_VERSION' => 'PHP Version: ',
-    'ERR_UW_SUITECRM_VERSION' => 'SuiteCRM System Version: ',
+    'ERR_UW_SUITECRM_VERSION' => 'DigitalFlow System Version: ',
     'ERR_UW_WRONG_TYPE' => 'This page is not for running ',
     'LBL_BUTTON_BACK' => '< Back',
     'LBL_BUTTON_CANCEL' => 'Cancel',
@@ -88,7 +88,7 @@ $mod_strings = array(
     'LBL_UW_COMMIT_ADD_TASK_DESC_1' => 'Backups of Overwritten Files are in the following directory: ' . PHP_EOL,
     'LBL_UW_COMMIT_ADD_TASK_DESC_2' => 'Manually merge the following files: ' . PHP_EOL,
     'LBL_UW_COMMIT_ADD_TASK_NAME' => 'Upgrade Process: Manually Merge Files',
-    'LBL_UW_COMMIT_ADD_TASK_OVERVIEW' => 'Please use whichever diff method is most familiar to you to merge these files. Until this is complete, your SuiteCRM installation will be in an uncertain state, and the upgrade incomplete.',
+    'LBL_UW_COMMIT_ADD_TASK_OVERVIEW' => 'Please use whichever diff method is most familiar to you to merge these files. Until this is complete, your DigitalFlow installation will be in an uncertain state, and the upgrade incomplete.',
     'LBL_UW_COMPLETE' => 'Complete',
     'LBL_UW_COMPLIANCE_ALL_OK' => 'All System Settings Requirements Satisfied',
     'LBL_UW_COMPLIANCE_CALLTIME' => 'PHP Setting: Call Time Pass By Reference',
@@ -176,8 +176,8 @@ $mod_strings = array(
 
     'LBL_UW_SKIPPED_FILES_TITLE' => 'Skipped Files',
     'LBL_UW_SQL_RUN' => 'Check when SQL has been manually run',
-    'LBL_UW_START_DESC' => 'This wizard will assist you in upgrading this SuiteCRM instance.',
-    'LBL_UW_START_DESC2' => 'Note: We highly recommend that you create a copy of the SuiteCRM instance you use in production, and test the upgrade package before deploying the new version. If you have changed the "composer.json" file, then please, after the upgrade process has completed, run this command:<br/><br/><pre>composer install --no-dev</pre>', // Keep the <pre>composer install --no-dev</pre> words at the end of the sentence and do not translate it
+    'LBL_UW_START_DESC' => 'This wizard will assist you in upgrading this DigitalFlow instance.',
+    'LBL_UW_START_DESC2' => 'Note: We highly recommend that you create a copy of the DigitalFlow instance you use in production, and test the upgrade package before deploying the new version. If you have changed the "composer.json" file, then please, after the upgrade process has completed, run this command:<br/><br/><pre>composer install --no-dev</pre>', // Keep the <pre>composer install --no-dev</pre> words at the end of the sentence and do not translate it
     'LBL_UW_START_DESC3' => 'Click Next to perform a check on your system to make sure that the system is ready for the upgrade. The check includes file permissions, database privileges and server settings.',
     'LBL_UW_START_UPGRADED_UW_DESC' => 'The new Upgrade Wizard will now resume the upgrade process. Please continue your upgrade.',
     'LBL_UW_START_UPGRADED_UW_TITLE' => 'Welcome to the new Upgrade Wizard',
@@ -216,7 +216,7 @@ $mod_strings = array(
     'LBL_UW_SHOW_OLD_SCHEMA_TO_DROP' => 'Show Old Schema that could be dropped',
     'LBL_UW_SKIPPED_QUERIES_ALREADY_EXIST' => 'Skipped Queries',
     'LBL_INCOMPATIBLE_PHP_VERSION' => 'Php version 5 or above is required.',
-    'ERR_CHECKSYS_PHP_INVALID_VER' => 'Your version of PHP is not supported by SuiteCRM. You will need to install a version that is compatible with the SuiteCRM application. Please consult the Compatibility Matrix in the Release Notes for supported PHP Versions. Your version is ',
+    'ERR_CHECKSYS_PHP_INVALID_VER' => 'Your version of PHP is not supported by DigitalFlow. You will need to install a version that is compatible with the DigitalFlow application. Please consult the Compatibility Matrix in the Release Notes for supported PHP Versions. Your version is ',
     'LBL_BACKWARD_COMPATIBILITY_ON' => 'Php Backward Compatibility mode is turned on. Set zend.ze1_compatibility_mode to Off for proceeding further',
     //including some strings from moduleinstall that are used in Upgrade
     'LBL_ML_ACTION' => 'Action',
@@ -246,9 +246,9 @@ $mod_strings = array(
     'LBL_UW_CONFIRM_LAYOUT_RESULTS' => 'Confirm Layout Results',
     'LBL_UW_CONFIRM_LAYOUT_RESULTS_DESC' => 'The following layouts were merged successfully:',
     'LBL_SELECT_FILE' => 'Select File:',
-    'ERROR_VERSION_INCOMPATIBLE' => 'The uploaded file is not compatible with this version of SuiteCRM: ',
+    'ERROR_VERSION_INCOMPATIBLE' => 'The uploaded file is not compatible with this version of DigitalFlow: ',
     'ERROR_PHP_VERSION_INCOMPATIBLE' => 'The uploaded file is not compatible with this version of PHP: ',
-    'ERROR_SUITECRM_VERSION_INCOMPATIBLE' => 'The uploaded file is not compatible with this version of SuiteCRM: ',
+    'ERROR_SUITECRM_VERSION_INCOMPATIBLE' => 'The uploaded file is not compatible with this version of DigitalFlow: ',
     'LBL_LANGPACKS' => 'Language Packs' /*for 508 compliance fix*/,
     'LBL_MODULELOADER' => 'Module Loader' /*for 508 compliance fix*/,
     'LBL_PATCHUPGRADES' => 'Patch Upgrades' /*for 508 compliance fix*/,
