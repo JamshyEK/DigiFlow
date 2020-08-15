@@ -162,4 +162,5 @@ $mod_strings = array(
     'LBL_AOS_INVOICES' => 'Invoices',
     'LBL_AOS_QUOTES' => 'Quotes',
     'LBL_PRINT_AS_PDF' => 'Print PDF',
+    'LBL_LABEL_OF_AUTO_INC_FIELD' => 'Num.'
 );

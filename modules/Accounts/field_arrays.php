@@ -82,6 +82,7 @@ $fields_array['Account'] = array('column_fields' => array(
         ,"account_type"
         ,"website"
         , "created_by"
+        ,"autoincrement_id"
         ),
         'list_fields' => array('id', 'name', 'website', 'phone_office', 'assigned_user_name', 'assigned_user_id'
     , 'billing_address_street'

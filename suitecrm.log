@@ -119,3 +119,16 @@ Mon Jul 27 02:48:01 2020 [12424][-none-][FATAL] Could not connect to DB server l
 
 Mon Jul 27 02:48:08 2020 [12424][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
 
+Sun Aug  9 14:30:47 2020 [12820][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
+
+Mon Aug 10 07:15:03 2020 [13112][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
+
+Mon Aug 10 09:29:50 2020 [9252][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
+
+Mon Aug 10 10:35:48 2020 [9252][1][FATAL] Caught error: stat(): stat failed for upload/import/error_1.csv
+Mon Aug 10 10:35:48 2020 [9252][1][FATAL] Caught error: touch(): UploadStream::stream_metadata is not implemented!
+Mon Aug 10 10:35:49 2020 [9252][1][FATAL] Caught error: stat(): stat failed for upload/import/status_1.csv
+Mon Aug 10 10:35:49 2020 [9252][1][FATAL] Caught error: touch(): UploadStream::stream_metadata is not implemented!
+Wed Aug 12 05:39:06 2020 [7032][-none-][FATAL] Could not connect to DB server localhost as root. port : No connection could be made because the target machine actively refused it.
+
+Wed Aug 12 06:06:56 2020 [7032][1][FATAL] No Links found for relationship contact_direct_reports

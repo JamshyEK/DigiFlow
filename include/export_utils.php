@@ -51,7 +51,8 @@ function getDelimiter()
     global $sugar_config;
     global $current_user;
 
-    $delimiter = ','; // default to "comma"
+    // $delimiter = "\t"; // default to "comma"
+    $delimiter = ",";
     $userDelimiter = $current_user->getPreference('export_delimiter');
     $delimiter = empty($sugar_config['export_delimiter']) ? $delimiter : $sugar_config['export_delimiter'];
     $delimiter = empty($userDelimiter) ? $delimiter : $userDelimiter;
@@ -79,6 +80,7 @@ function printCSV($csv, $name) {
     }
 
     header("Pragma: cache");
+    // header("Content-Type:   application/vnd.ms-excel; charset=utf-8");
     header("Content-type: text/comma-separated-values; charset=" . $charset);
     header("Content-Disposition: attachment; filename=\"{$name}.csv\"");
     header("Content-transfer-encoding: binary");
